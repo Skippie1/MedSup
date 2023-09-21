@@ -1,5 +1,7 @@
 ## How to install locally
 ### Create a folder named "MedSupV4"
+### Then right click the folder and press "Open with VS Code"
+
 
 ## File structure
 #### `client` - Holds the client application
