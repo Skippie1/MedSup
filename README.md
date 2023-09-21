@@ -19,7 +19,11 @@
     SMPT_PASSWORD = qezcvgwohjhmkupw <br>
     SMPT_MAIL = d3fault07@gmail.com <br>
     STRIPE_API_KEY = "pk_test_51NFIDaArwvxHPFAB7gebXTNwu3vuXtNPDjsVdz7mcpVaggE1pGp3SDwZRvgIpVS0P6ul9GgkrzmcCta1ynNPtFOw00s1YRlVPY" 
-    STRIPE_SECRET_KEY = "sk_test_51NFIDaArwvxHPFABT3SrLqvy0tp7FDgMut54xTcpcFINX1VTtKM4mzkeGU0sRmDbBO53zRbQOOEXfA9xX3ecyuZV00QN27L6L0" 
+    STRIPE_SECRET_KEY = "sk_test_51NFIDaArwvxHPFABT3SrLqvy0tp7FDgMut54xTcpcFINX1VTtKM4mzkeGU0sRmDbBO53zRbQOOEXfA9xX3ecyuZV00QN27L6L0"
+
+## How to Start the System
+- #### In the terminal type "cd backend" and type "npm run dev"
+- #### Then open another terminal without closing the other one type "cd frontend" and type "npm start"
 
 ## File structure
 #### `client` - Holds the client application
