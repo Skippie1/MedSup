@@ -1,3 +1,6 @@
+## How to install locally
+### Create a folder named "MedSupV4"
+
 ## File structure
 #### `client` - Holds the client application
 - #### `public` - This holds all of our static files
