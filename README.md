@@ -1,6 +1,9 @@
-## How to install locally
-### Create a folder named "MedSupV4"
-### Then right click the folder and press "Open with Code"
+## How to install Locally
+- ##### Install git if not installed
+- ##### Create a folder named "MedSupV4"
+- ##### Then right click the folder and press "Open with Code"
+- ##### When the folder is open in VS Code, click Terminal then new Terminal and when the Terminal is opened make sure it's in Git Bash or bash <br> if the Terminal is not in Bash you can change it by clicking the "+v" in the upper right of the terminal and change it to Git Bash
+- #### When the terminal is in bash type or copy "git clone https://github.com/Skippie1/MedSup.git", wait for it to finish, when it's finish close the terminal and open another one, then type in the terminal "cd backend" to move to the backend folder then "npm i" to install the node modules and wait for it to finish installing then after installing type "cd ../" to go back to the main folder and then type "cd frontend" to move to the frontend folder then "npm i" or "yarn" if it's not installing, then go back to the main folder by typing "cd ../" then type "cd socket" and type "npm i"
 
 
 ## File structure
