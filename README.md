@@ -1,6 +1,6 @@
 ## How to install locally
-Create a folder named ###"MedSupV4"
-Then right click the folder and press ###"Open with Code"
+Create a folder named "MedSupV4"
+Then right click the folder and press "Open with Code"
 
 
 ## File structure
