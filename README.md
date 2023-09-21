@@ -5,6 +5,21 @@
 - ##### When the folder is open in VS Code, click Terminal then new Terminal and when the Terminal is opened make sure it's in Git Bash or bash <br> if the Terminal is not in Bash you can change it by clicking the "+v" in the upper right of the terminal and change it to Git Bash
 - #### When the terminal is in bash type or copy "git clone https://github.com/Skippie1/MedSup.git", wait for it to finish, when it's finish close the terminal and open another one, then type in the terminal "cd backend" to move to the backend folder then "npm i" to install the node modules and wait for it to finish installing then after installing type "cd ../" to go back to the main folder and then type "cd frontend" to move to the frontend folder then "npm i" or "yarn" if it's not installing, then go back to the main folder by typing "cd ../" then type "cd socket" and type "npm i"
 
+## If config is missing in the backend folder
+- #### Create a folder in backend folder name it config
+- #### Then after the config folder is created, create a file name it ".env"
+- #### Then after creating the file copy this and paste it within the file <br>
+    Port= 8000 <br>
+    DB_URL= "mongodb+srv://MedSup:Pogiako1@cluster0.cfae1d9.mongodb.net/" <br>
+    JWT_SECRET_KEY = "2FxXT1NTf2K1Mo4i6AOvtdI" <br>
+    JWT_EXPIRES = 7d <br>
+    ACTIVATION_SECRET = 123asdaw312fasea3115tacaeffaawdas <br>
+    SMPT_HOST =  smtp.gmail.com <br>
+    SMPT_PORT = 465 <br>
+    SMPT_PASSWORD = qezcvgwohjhmkupw <br>
+    SMPT_MAIL = d3fault07@gmail.com <br>
+    STRIPE_API_KEY = "pk_test_51NFIDaArwvxHPFAB7gebXTNwu3vuXtNPDjsVdz7mcpVaggE1pGp3SDwZRvgIpVS0P6ul9GgkrzmcCta1ynNPtFOw00s1YRlVPY" 
+    STRIPE_SECRET_KEY = "sk_test_51NFIDaArwvxHPFABT3SrLqvy0tp7FDgMut54xTcpcFINX1VTtKM4mzkeGU0sRmDbBO53zRbQOOEXfA9xX3ecyuZV00QN27L6L0" 
 
 ## File structure
 #### `client` - Holds the client application
